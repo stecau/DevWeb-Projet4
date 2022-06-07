@@ -1071,3 +1071,8 @@ blockquote p::before {
 blockquote p::after {
     content: '\201D';
 }
+
+.skip-to-content {
+    position: absolute;
+    clip: rect(0,0,0,0);
+}
