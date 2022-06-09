@@ -1097,10 +1097,16 @@ blockquote p::after {
     border-color: #faebcc
 }
 
-/* Rajout pour correction taille image portfolio */
+/* Rajout pour correction taille image portfolio (responsive) */
 .portfolio-row img{
     width: 100%;
     object-fit: contain;
+}
+
+/* Rajout pour correction taille bloc parent formulaire (responsive) */
+.row-correction{
+    margin-right: 0;
+    margin-left: 0;
 }
 
 /* Rajout pour correction contraste */
