@@ -649,7 +649,8 @@ h6,
 p,
 label,
 .btn,
-a {
+a,
+figcaption /* Rajout pour correction contraste */ {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #575757!important;
@@ -774,15 +775,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CB4B10; /* Modification pour correction contraste */
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #CB4B10!important; /* Modification pour correction contraste */
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CB4B10; /* Modification pour correction contraste */
     color: #FFFFFF!important;
 }
 
@@ -800,7 +801,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #CB4B10!important; /* Modification pour correction contraste */
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1100,4 +1101,17 @@ blockquote p::after {
 .portfolio-row img{
     width: 100%;
     object-fit: contain;
+}
+
+/* Rajout pour correction contraste */
+.correction-contraste{
+    background-color: rgba(255,255,255,0.75);
+    padding: 20px;
+    outline: 3px double #CB4B10;
+    outline-offset: 1px;
+}
+
+.correction-contraste-top{
+    position: relative;
+    z-index: 1;
 }
