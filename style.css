@@ -1121,3 +1121,23 @@ blockquote p::after {
     position: relative;
     z-index: 1;
 }
+
+/* Rajout pour correction focus visible */
+@supports selector(*:focus-visible) {
+    /* only on clic/tap focus */
+    a:focus:not(:focus-visible),
+    button:focus:not(:focus-visible),
+    #nav-toggle:focus:not {
+        outline: 0!important;
+    }
+    /* only on keyboard focus */
+    a:focus-visible,
+    button:focus-visible,
+    #nav-toggle:focus-visible {
+        outline: 6px double black!important;
+    }
+}
+
+
+
+
