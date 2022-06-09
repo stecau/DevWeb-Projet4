@@ -1095,3 +1095,9 @@ blockquote p::after {
     background-color: #fcf8e3;
     border-color: #faebcc
 }
+
+/* Rajout pour correction taille image portfolio */
+.portfolio-row img{
+    width: 100%;
+    object-fit: contain;
+}
