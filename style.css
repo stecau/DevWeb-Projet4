@@ -680,7 +680,7 @@ figcaption /* Rajout pour correction contraste */ {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -1138,6 +1138,42 @@ blockquote p::after {
     }
 }
 
+/* Rajout pour Google Maps */
+.gmaps-container h2{
+    margin: 0;
+    padding: 10px 0;
+}
 
+.gmaps-container h2 > a{
+    padding: 10px 0;
+}
 
+.gmaps-container p{
+    margin-bottom: 0;
+}
 
+.horaire{
+    color: green!important;
+}
+
+.gmaps-container a:not(.tc-white){
+    display: block;
+    margin-top: 0;
+    padding: 13px 0!important;
+}
+
+.gmaps-container__frame{
+    width: 100%;
+    height: 300px;
+    border: 0; 
+}
+
+@media (max-width: 767px) {
+    .gmaps-container a:not(.tc-white){
+        margin-left: 10px
+    }
+    .gmaps-container__frame{
+        margin-left: 10px;
+        width: 97%;
+    }
+}
