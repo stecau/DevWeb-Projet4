@@ -1042,18 +1042,6 @@ h4 {
     }
 }
 
-/* Rajout pour correction accessibilité : */
-.visuallyhidden {
-    border: 0;
-    clip-path: inset(0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
 blockquote {
     margin: 0;
 }
@@ -1071,11 +1059,6 @@ blockquote p::before {
 
 blockquote p::after {
     content: '\201D';
-}
-
-.skip-to-content {
-    position: absolute;
-    clip-path: inset(0 0);
 }
 
 /* Rajout pour correction Bootstrap plugin Validation : */
