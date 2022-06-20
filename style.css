@@ -1046,6 +1046,7 @@ blockquote {
     margin: 0;
 }
 
+/* Rajout pour correction citation : */
 blockquote p {
     padding: 15px;
     background: #eee;
